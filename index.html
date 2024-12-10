@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daniel Caesar - Get You</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Crimson+Text&family=Dancing+Script&family=Manrope&family=Playfair+Display&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Dancing+Script&family=Manrope&family=Playfair+Display&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic" rel="stylesheet" />
+    <link rel="icon" href="Daniel.jpeg" type="image/x-jpg">
+
+    <style>
+        
+        body {
+            margin: 0; 
+            font-family: "Poppins", serif; 
+            font-weight: 400;
+            font-style: normal;
+            background-color: #121212; 
+            color: #ffffff; 
+            display: flex; 
+            flex-direction: column; 
+            height: 100vh; 
+        }
+
+        #container {
+            display: flex; 
+            flex: 1; 
+        }
+
+        #sidebar {
+            width: 25%; 
+            background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+            padding: 20px; 
+            text-align: center; 
+            box-shadow: 2px 0 5px rgb(0, 255, 255); 
+            display: flex; 
+            flex-direction: column; 
+            align-items: center; 
+        }
+
+        
+        #main {
+            flex: 1; 
+            padding: 40px; 
+            overflow-y: auto; 
+            position: relative; 
+            overflow: hidden; 
+        }
+
+        #lyrics {
+            position: relative; 
+            z-index: 1; 
+            max-width: 800px; 
+            margin: 0 auto; 
+            text-align: center; 
+            color: white;
+        }
+
+        h1 {
+            font-size: 2.5em; 
+            margin: 20px 0;
+        }
+
+        h2 {
+            font-size: 1.5em; 
+            margin: 10px 0;
+            color: #999; 
+        }
+
+        
+        p {
+            margin: 10px 0; 
+            line-height: 1.8; 
+            font-size: 1.2em; 
+        }
+
+        
+        .highlight {
+            color: hsl(102, 100%, 50%); 
+            font-weight: bold;
+        }
+
+        #song-image {
+            width: 100%; 
+            max-width: 200px; 
+            border-radius: 12px; 
+            margin-bottom: 20px; 
+        }
+
+        #sidebar h2 {
+            margin-top: 15px;
+            font-size: 1.2em;
+        }
+
+        #sidebar p {
+            font-size: 1em;
+            margin: 5px 0;
+        }
+        footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+        }
+        .audio-container {
+            display: flex;
+            align-items: center;
+            background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+        }
+  
+  .audio-details {
+    display: flex;
+    align-items: center;
+  }
+  
+  .audio-details img {
+    width: 50px;
+    height: 50px;
+    margin-left: 30px;
+  }
+  
+  .track-details {
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .title {
+    margin: 0;
+    text-align: left;
+  }
+  
+  .artist-Name {
+    margin: 0;
+    font-size: 0.8em;
+    text-align: left;
+  }
+  audio {
+    margin-left: 30px;
+    width: 1210px;
+    height: 40px;
+  }
+        
+    </style>
+</head>
+<body style= text-align:center>
+    
+    
+    <div id="container">
+        <div id="sidebar">
+            <img id="song-image" src="Daniel..jpeg" alt="Toronto 2014 Cover">
+            <h2>Now Playing</h2>
+            <p>Artist: Daniel Caesar</p>
+            <p>Song: Get You</p>
+            <p>Album: Toronto 2014</p>
+            
+        </div>
+        <div id="main">
+            <video autoplay muted loop class="background-video">
+                <source src="Daniel.mp4" type="video/mp4">
+            </video>
+            <div id="lyrics">
+                <h1 style="font-family: 'Courgette', sans-serif; font-size: 40PX;">
+                    GET YOU
+                 </h1>
+                <h2>DANIEL CAESAR</h2>
+                <br><p>Through drought and famine, natural disasters</p>
+                <p>My baby has been around for me</p> 
+                <p>Kingdoms have fallen, angels be callin'</p>
+                <p>None of that could ever make me leave, yeah</p></br>
+                    
+
+                <br><p>[Pre-Chorus: Daniel Caesar]</p>
+                <p>Every time I look into your eyes, I see it</p>
+                <p>You're all I need</p>
+                <p>Every time I get a bit inside, I feel it</p></br>
+                    
+
+                <br><p>[Chorus: Daniel Caesar]</p>
+                <p>Ooh, who would've thought I'd get you?</p>
+                <p>Ooh, who would've thought I'd get you?</p></br>
+                    
+
+                <br><p>[Verse 2: Daniel Caesar]tite</p>
+                <p>And when we're making love, uh</p>
+                <p>Your cries, they can be heard from far and wide</p>
+                <p>It's only the two of us</p>
+                <p>Everything I need between those thighs</p></br>
+                    
+
+                <br><p>[Pre-Chorus: Daniel Caesar]</p>
+                <p>Every time I look into your eyes, I see it</p>
+                <p>You're all I need</p>
+                <p>Every time I get a bit inside, I feel it</p>
+                <p>See upcoming R&B shows</p>
+                <p>Get tickets for your favorite artists</p></br>
+                    
+
+                <br><p>[Chorus: Daniel Caesar]</p>
+                <p>Ooh, who would've thought I'd get you?</p>
+                <p>Oh yeah, oh yeah, babe</p>
+                <p>Ooh, who would've thought I'd get you?</p></br>
+                    
+
+                <br><p>[Verse 3: Kali Uchis & Daniel Caesar]</p>
+                <p>And I'll take some time</p>
+                <p>Just to be thankful</p>
+                <p>That I had days full of you, you</p>
+                <p>Before it winds down into (Got someone you like, feel something that's right)</p>
+                <p>The memories, it's all just memories (Somebody, just tell somebody)</p>
+                <p>Now</p></br>
+                    
+
+                <br><p>[Bridge: Daniel Caesar]</p>
+                <p>(If you've got someone you like)</p>
+                <p>Don't you love when I come around? (Feel something that's right)</p>
+                <p>(Somebody, just tell somebody) Build you up then I take you down</p>
+                <p>(If you've got someone you like)</p>
+                <p>Don't you love when I come around? (Feel something that's right)</p>
+                <p>(Somebody, just tell somebody) Build you up then I take—</p></br>
+                    
+
+                <br><p>[Chorus: Daniel Caesar]</p>
+                <p>Ooh, who would've thought I'd get you?</p>
+                <p>Oh yeah, oh yeah, babe</p>
+                <p>Ooh, who would've thought I'd get you?</p></br>
+                   
+                <br><p>[Outro: Kali Uchis]</p>
+                <p>This feels like summer</p> 
+                <p>Boy, you make me feel so alive</p>
+                <p>Just be my lover</p>
+                <p>Boy, you'll lead me to paradise</p></br>
+                
+            </div>
+        </div>
+    </div>
+    <main>
+        <footer>
+            <div class="audio-container">
+                <div class="audio-details">
+                  <img src="Daniel..jpeg" alt="Image description">
+                  <div class="track-details">
+                    <p class="title"><b>Get You</b></p>
+                    <p class="artist-Name">Daniel Caesar</p>
+                  </div>
+                </div>
+                <audio controls>
+                  <source src="Get You (feat. Kali Uchis).mp3" type="audio/mpeg" />
+                </audio>
+              </div>                 
+        </footer>
+    </main>
+</body>
+</html>
